@@ -1,0 +1,11 @@
+https://github.com/ADNAN-ADIL/htmlrepo.git
+
+git status
+
+git add .
+
+git status
+
+git commit -m "your commit message"
+
+git push
