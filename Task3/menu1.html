@@ -1,8 +1,53 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Menu</title>
+    <style>
+        *{
+            margin: 5px;
+        }
+        body{
+            background-image: url(pizzawl2.jpg);
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            color: red;
+        }
+        header{
+            background-color: lightcyan;
+            border: 2px solid black;
+        }
+        #f1{
+            color: red;
+        }
+        #f2{
+            color: tomato;
+            font-size: 25px;
+            font-weight: 400;
+        }
+        h2{
+            text-align: center;
+        }
+        footer{
+            background-color: lightgoldenrodyellow;
+            border: 2px solid black;
+        }
+        table{
+            background-color: #E5D9F2;
+            text-align: center;
+            border: 2px solid grey;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        caption{
+            color: black;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
 </head>
 
 <body>
@@ -20,16 +65,17 @@
             <a href="signin.html">SignIn</a> |
             <a href="signup.html">SignUp & Order</a> |
             <a href="gallery.html">Gallery</a>
-        </center><br>
+        </center>
         <marquee behavior="" direction="right">
-            <font color="blue">Open from 10am to 12 pm</font>
+            <font id="f1">Open from 10am to 12 pm</font>
         </marquee>
     </header>
-    <hr>
-    <font color="Tomato"><b>MENU</b></font>
+    <h2>
+    <font id="f2" color="Tomato"><b>MENU</b></font>
+    </h2>
     <table border="1px">
         <caption align="center">
-            <font color="lightgreen">Pizza</font>
+            <font>Pizza</font>
         </caption>
         <thead>
             <tr>
@@ -80,7 +126,7 @@
     </table> <br>
     <table border="1px">
         <caption align="center">
-            <font color="lightgreen">Salads</font>
+            <font>Salads</font>
         </caption>
         <thead>
             <tr>
@@ -129,7 +175,7 @@
     </table> <br>
     <table border="1px">
         <caption align="center">
-            <font color="lightgreen">Starter</font>
+            <font>Starters</font>
         </caption>
         <thead>
             <tr>
@@ -176,14 +222,12 @@
             </tr>
         </tbody>
     </table> <br>
-    <hr>
     <footer>
         <center>
-            <h1>Call us at 0870-162330</h1>
-            <h2>Powered by 360Digrii</h2>
-            <h3>Thank you for visiting the website</h3>
+            <h2>Call us at 0870-162330</h2>
+            <h3>Powered by 360Digrii</h3>
+            <h4>Thank you for visiting the website</h4>
         </center>
     </footer>
 </body>
-
 </html>

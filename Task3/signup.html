@@ -2,6 +2,43 @@
 <html>
 <head>
     <title>Sign Up</title>
+    <style>
+        *{
+            margin: 5px;
+        }
+        body{
+            background-image: url(pizzawl2.jpg);
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            color: red;
+        }
+        header{
+            background-color: lightcyan;
+            border: 2px solid black;
+        }
+        #f1{
+            color: red;
+        }
+        table{
+            background-color: #E5D9F2;
+            text-align: center;
+            border: 2px solid grey;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        caption{
+            text-align: center;
+            font-size: 20px;
+        }
+        footer{
+            background-color: lightgoldenrodyellow;
+            border: 2px solid black;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -17,16 +54,16 @@
             <a href="signin.html">SignIn</a> |
             <a href="#">SignUp & Order</a> |
             <a href="gallery.html">Gallery</a>
-        </center> <br>
+        </center>
         <marquee behavior="" direction="right">
-            <font color="blue">Open from 10am to 12 pm</font>
+            <font id="f1" color="blue">Open from 10am to 12 pm</font>
         </marquee>
     </header>
-    <hr>
     <form>
-        <table cellspacing="5px" align="center">
+        <center>
+        <table cellspacing="5px" align="center" margin="2px">
             <caption>Super Awesome Pizza Ordering System</caption>
-            <tr>
+            <tr border="solid 2px">
                 <td>
                     <label>Customer Name</label>
                 </td>
@@ -46,34 +83,34 @@
                 <td colspan="5" align="center">PIZZA TYPE</td>
             </tr>
             <tr>
-                <td>
-                    <img src="https://media.istockphoto.com/id/467496365/photo/slice-of-cheese-pizza-close-up-isolated.jpg?s=612x612&w=0&k=20&c=4HEjgG0LzfgosSXASrskcgQrWKkcP9iuQLSZ7tPYnmU=" height="75px" width="75px"><br>
-                    <input type="radio">Margarita
+                <td colspan="1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTex8jJ67l0NB04KpjkD7_ujnWqWSifXCwepQ&s" height="75px" width="75px"><br>
+                    <input type="radio" name="pizzatype" id="pizza1" value="Margarita">Margarita
                 </td>
                 <td colspan="1">
-                    <img src="https://static.vecteezy.com/system/resources/previews/046/861/085/non_2x/a-delicious-hawaiian-pizza-slice-isolated-on-a-transparent-background-free-png.png" height="75px" width="75px"><br>
-                    <input type="radio">Hawaian
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUfT9_rLlFqEgZ8GzX-FbczsnKQz-BuwOJyg&s" height="75px" width="75px"><br>
+                    <input type="radio" name="pizzatype" id="pizza2" value="Hawaian">Hawaian
                 </td>
-                <td>
+                <td colspan="1">
                     <img src="https://img.freepik.com/premium-photo/meat-lovers-pizza-slice-white-background-generative-ai_864588-908.jpg" height="75px" width="75px"><br>
-                    <input type="radio">Meat lovers
+                    <input type="radio" name="pizzatype" id="pizza3" value="Meat lovers">Meat lovers
                 </td>
-                <td>
+                <td colspan="1">
                     <img src="https://img.freepik.com/premium-photo/supreme-pizza-slice-white-background_864588-16534.jpg" height="75px" width="75px"><br>
-                    <input type="radio">Supreme
+                    <input type="radio" name="pizzatype" id="pizza4" value="Supreme">Supreme
                 </td>
-                <td>
+                <td colspan="1">
                     <img src="https://img.freepik.com/premium-photo/vegetarian-pizza-with-slice-mushroom-3d-isolated-white-background-centered-composition_987339-18.jpg" height="75px" width="75px"><br>
-                    <input type="radio">Vegetarian
+                    <input type="radio" name="pizzatype" id="pizza5" value="Vegetarian">Vegetarian
                 </td>
             </tr>
             <tr>
                 <td colspan="2">
                     <label>EXTRA TOPPINGS</label><br>
-                    <input type="checkbox">anchiovies <br>
-                    <input type="checkbox">Mushrooms <br>
-                    <input type="checkbox">Olives <br>
-                    <input type="checkbox">Chillies <br>
+                    <input type="checkbox" name="extratop" id="et1">anchiovies <br>
+                    <input type="checkbox" name="extratop" id="et2">Mushrooms <br>
+                    <input type="checkbox" name="extratop" id="et3">Olives <br>
+                    <input type="checkbox" name="extratop" id="et4">Chillies <br>
                 </td>
                 <td colspan="3">
                     <label>SPECIAL REQUESTS</label><br>
@@ -98,10 +135,10 @@
                 </td>
             </tr>
         </table>
+        </center>
     </form>
         <br><br><br><br><br><br><br><br><br><br>
         
-    <hr>
     <footer><center><h2>Call us at 0870-162330</h2><h3>Powered by 360Digrii</h3><h4>Thank you for visiting the website</h4></center></footer>
 </body>
 </html>

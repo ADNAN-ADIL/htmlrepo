@@ -2,6 +2,35 @@
 <html>
 <head>
     <title>Sign In</title>
+    <style>
+        *{
+            margin: 5px;
+        }
+        body{
+            background-image: url(pizzawl2.jpg);
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            color: red;
+        }
+        header{
+            background-color: lightcyan;
+            border: 2px solid black;
+        }
+        #f1{
+            color: red;
+        }
+        table{
+            text-align: center;
+        }
+        footer{
+            background-color: lightgoldenrodyellow;
+            border: 2px solid black;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -17,20 +46,21 @@
             <a href="#">SignIn</a> |
             <a href="signup.html">SignUp & Order</a> |
             <a href="gallery.html">Gallery</a>
-        </center> <br>
+        </center>
         <marquee behavior="" direction="right">
-            <font color="blue">Open from 10am to 12 pm</font>
+            <font id="f1" color="blue">Open from 10am to 12 pm</font>
         </marquee>
     </header>
-    <hr>
+    <p>
     <form>
-        <table cellspacing="10px" align="center">
+        <center>
+        <table cellspacing="10px">
             <caption>
                 <h3>Login Page</h3>
             </caption>
             <tr>
                <td>
-                <label>UserID</label>
+                <label>User-ID</label>
                </td>
                <td>
                 <input type="text">
@@ -53,10 +83,10 @@
                 </td>
             </tr>
         </table>
+        </center>
     </form>
         <br><br><br><br><br><br><br><br><br><br>
         
-    <hr>
     <footer><center><h2>Call us at 0870-162330</h2><h3>Powered by 360Digrii</h3><h4>Thank you for visiting the website</h4></center></footer>
 </body>
 </html>
